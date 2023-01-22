@@ -1,0 +1,97 @@
+.mainContainer {
+}
+body {
+  background-color: aliceblue;
+}
+#headImg1 {
+  width: 80px;
+  height: 80px;
+}
+#headImg2 {
+  width: 40px;
+  height: 40px;
+}
+#headerConatiner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#cardConatiner {
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+#cardHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  margin-top: 10px;
+
+  align-content: center;
+  border-radius: 5px 5px 0 0;
+}
+#cardHeaderh1 {
+  font-size: small;
+  margin: 0;
+}
+#cardHeaderpara {
+  margin: 0;
+  font-size: smaller;
+  color: gray;
+}
+#threeDot {
+  height: 20px;
+  width: 20px;
+}
+#PostImage {
+  width: 300px;
+  height: 200px;
+}
+#imageContainer {
+  height: 200px;
+  width: 300px;
+}
+#cardFooter {
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+#footerIconContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  align-items: center;
+  background-color: white;
+  height: 25px;
+  align-content: center;
+  padding-top: 10px;
+}
+#footerIcon {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+#Heart {
+  margin-right: 20px;
+}
+#date {
+  font-size: 10px;
+  color: gray;
+}
+#likes {
+  margin: 0 50px;
+  font-size: 10px;
+}
+#description {
+  margin: 0 38px;
+  margin-top: 5px;
+  padding-bottom: 20px;
+}

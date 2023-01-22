@@ -1,0 +1,18 @@
+.loding-parent {
+  width: 350px;
+  margin: 50px auto;
+  border: 1px solid grey;
+  background-image: url("https://t3.ftcdn.net/jpg/03/44/67/38/360_F_344673825_6fU6IORyipkYpfU1mg2vmxtHxDToUO6Q.jpg");
+  border-radius: 10px;
+  color: aliceblue;
+}
+.loding-page {
+  width: 300px;
+  margin: 20px auto;
+}
+.enter-button {
+  width: 150px;
+  border-radius: 5px;
+  font-size: larger;
+  background-color: cyan;
+}

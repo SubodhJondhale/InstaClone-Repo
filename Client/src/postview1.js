@@ -21,11 +21,15 @@ function Postview() {
   return (
     <div className='App'>
       <Header />
-      <div>
-        {data.map((user) => (
-          <Postviewdata user={user} />
-        ))}
-      </div>
+      {data ? (
+        <div>
+          {data.map((user) => (
+            <Postviewdata user={user} />
+          ))}
+        </div>
+      ) : (
+        <h2>Loading...</h2>
+      )}
     </div>
   );
 }

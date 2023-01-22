@@ -67,7 +67,7 @@ app.get("/all", async (req, resp) => {
 });
 
 app.get("/image/:filename", (req, resp) => {
-  resp.sendFile(path.join(__dirname, `/uploads/${req.params.filename}`));
+  resp.sendFile(`/uploads/${req.params.filename}`, { root: "." });
 });
 app.use(express.static(path.join(__dirname, "./Client/build")));
 app.get("*", function (req, res) {

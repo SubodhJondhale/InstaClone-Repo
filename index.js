@@ -7,7 +7,7 @@ const fileUpload = require("express-fileupload");
 const { v4: uniqKeyGenerate } = require("uuid");
 const UsersShema = require("./Users");
 const path = require("path");
-const PORT = 3000 || process.env.PORT;
+const PORT = 8081 || process.env.PORT;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 const uri = `mongodb+srv://subodhjondhale1998:Mubodh1234@instauserdata.h3vnl66.mongodb.net/?retryWrites=true&w=majority`;

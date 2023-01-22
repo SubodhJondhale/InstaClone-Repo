@@ -35,7 +35,7 @@ function Form() {
     data.append("image", formData.image);
 
     try {
-      const response = await fetch("http://localhost:8081/userData", {
+      const response = await fetch("/userData", {
         method: "POST",
         // headers: {
         //   "Content-Type": "multipart/form-data",

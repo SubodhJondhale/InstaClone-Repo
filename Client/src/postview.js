@@ -6,7 +6,6 @@ import Heart from "./icons/icons8-favorite-30.png";
 import Sent from "./icons/icons8-sent-50.png";
 
 function Postviewdata(props) {
-  console.log(props.user.file_name);
   return (
     <div id='cardConatiner'>
       <div id='cardHeader'>

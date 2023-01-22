@@ -15,7 +15,7 @@ function Postview() {
       .then((data) => {
         setData(data.result);
       });
-  });
+  }, []);
   console.log(data);
 
   return (

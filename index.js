@@ -69,14 +69,11 @@ app.get("/all", async (req, resp) => {
 app.get("/image/:filename", (req, resp) => {
   resp.sendFile(`/uploads/${req.params.filename}`, { root: "." });
 });
-app.use(express.static(path.join(__dirname, "./Client/build")));
+app.use(express.static("/Client/build", { root: "." }));
 app.get("*", function (req, res) {
-  res.sendFile(
-    path.join(__dirname, "./Client/build/index.html"),
-    function (err) {
-      res.status(500).send(err);
-    }
-  );
+  res.sendFile("/Client/build/index.html", { root: "." }, function (err) {
+    res.status(500).send(err);
+  });
 });
 app.listen(PORT, () => {
   console.log("Running on PORT", PORT);
